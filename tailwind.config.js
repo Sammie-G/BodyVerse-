@@ -1,19 +1,18 @@
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
-        primary: {
-          blue: '#4A90E2',
-          purple: '#9B59B6',
-          gold: '#F39C12',
-        },
+        black: '#000000',
+        card: '#0d0d0d',
+        cardAlt: '#1a1a1a',
+        gold: '#D4A843',
+        success: '#30D158',
       },
-      backgroundImage: {
-        'gradient-brand': 'linear-gradient(135deg, #4A90E2 0%, #9B59B6 50%, #F39C12 100%)',
+      borderRadius: {
+        sm12: '12px',
+        card: '18px',
+        modal: '24px',
       },
     },
   },
